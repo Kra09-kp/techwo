@@ -5,34 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Techwo</title>
-     
-        <style>
-     body{
-        background-image: url('gif/holo.gif');
-        background-repeat: repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        color: #fff;
-        align-items: center;
-        }
-        
-        </style>
+     <link rel="stylesheet" href="style.css">
     </head>
     <body >
         <header><i>www.Techwo.com </i></header>
+        
         <h2><small> "A world for technology"</small></h2>
         <p> A place where you get all information about global technology.</p>
         <h3><strong>“Technology is best when it brings people together.”</strong></h3>
+        
         <form name="contact" >
           <p>
-           <label>Name <input type="text" name="name" /></label>
+           <label >Name <input type="text" name="name" placeholder="enter your name"/></label>
           </p>
             <p>
-              <label>Email <input type="email" name="email" /></label>
+              <label >Email <input type="email" name="email" placeholder="enter your email " required /></label>
             </p>
               <p>
-                <button type="submit">Send</button>
+                <label>Password <input type="password" name="password" placeholder="enter your password" required /></label>
               </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
         </form>
      </body>
 </html>
